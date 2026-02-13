@@ -31,15 +31,41 @@ MinuteMate is an intelligent ecosystem that bridges the gap between live discuss
 ## 📂 Project Structure
 
 ```text
-MinuteMate/
-├── .github/workflows/   # CI/CD pipelines
+MINUTEMATE
+├── .github/
+│   └── workflows/
+│       └── main.yml
 ├── backend/
-│   ├── dailysync/       # Standup automation & LLM summarization
-│   └── whisper_api/     # Whisper transcription service
-├── extension/           # Chrome Extension (Manifest V3)
-│   ├── background.js    # Service worker for audio handling
-│   └── popup.js         # User interface for recording
-└── web_app/             # Alternative dashboard for meeting uploads
+│   ├── dailysync/
+│   │   ├── check_models.py
+│   │   ├── create_notiondb.py
+│   │   ├── fix_issues.py
+│   │   ├── flask_app.py
+│   │   ├── github_integration.py
+│   │   ├── main.py
+│   │   ├── notion_integration.py
+│   │   ├── setup_env.py
+│   │   ├── slack_sender.py
+│   │   ├── summarize_llm.py
+│   │   ├── test_notion_token.py
+│   │   ├── test_whisper.py
+│   │   └── user_mapping.json
+│   └── whisper_api/
+│       ├── app.py
+│       └── meeting_summary_info.json
+├── extension/
+│   ├── background.js
+│   ├── LOGO.png
+│   ├── manifest.json
+│   ├── offscreen.html
+│   ├── offscreen.js
+│   ├── popup.html
+│   ├── popup.js
+│   └── styles.css
+├── web_app/
+│   ├── app.js
+│   └── index.html
+└── .env           
 
 ```
 
@@ -81,3 +107,4 @@ Distributed teams often suffer from "Meeting Fatigue" and "Context Switching."
 * **Tool Fragmentation** leads to tasks being lost between Slack threads and GitHub issues.
 
 **MinuteMate** creates a single source of truth by automating the documentation and synchronization process.
+
