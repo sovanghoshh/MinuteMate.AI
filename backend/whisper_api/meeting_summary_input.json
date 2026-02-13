@@ -1,0 +1,77 @@
+{
+  "github_link": "https://github.com/sahelikundu22/for_testing",
+  "tasks": [
+    {
+      "task": "Optimize mobile responsiveness for dashboard UI",
+      "assignee": "Rhea",
+      "status": "To Do",
+      "due": "2026-02-21"
+    },
+    {
+      "task": "Add animation transitions to dashboard UI",
+      "assignee": "Rhea",
+      "status": "To Do",
+      "due": "2026-02-21"
+    },
+    {
+      "task": "Improve transcription efficiency for longer audio files",
+      "assignee": "Jaden",
+      "status": "To Do",
+      "due": "2026-02-21"
+    },
+    {
+      "task": "Chunk audio before processing for transcription",
+      "assignee": "Jaden",
+      "status": "To Do",
+      "due": "2026-02-21"
+    },
+    {
+      "task": "Tune AI prompts for better task extraction",
+      "assignee": "Rahul",
+      "status": "To Do",
+      "due": "2026-02-21"
+    },
+    {
+      "task": "Add context filters for AI task extraction",
+      "assignee": "Rahul",
+      "status": "To Do",
+      "due": "2026-02-21"
+    },
+    {
+      "task": "Test edge cases for session timeouts and task sync with Slack",
+      "assignee": "Arjun",
+      "status": "To Do",
+      "due": "2026-02-21"
+    },
+    {
+      "task": "Check logs for Slack token refresh issue",
+      "assignee": "Arjun",
+      "status": "To Do",
+      "due": "2026-02-21"
+    },
+    {
+      "task": "Redesign meeting status visuals (recording, processing, completed)",
+      "assignee": "Nihah",
+      "status": "To Do",
+      "due": "2026-02-21"
+    },
+    {
+      "task": "Add onboarding hints to UI",
+      "assignee": "Nihah",
+      "status": "To Do",
+      "due": "2026-02-21"
+    },
+    {
+      "task": "Prepare teaser posts for marketing",
+      "assignee": "Priya",
+      "status": "To Do",
+      "due": "2026-02-21"
+    },
+    {
+      "task": "Prepare demo videos for marketing",
+      "assignee": "Priya",
+      "status": "To Do",
+      "due": "2026-02-21"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Auralix - AI Meeting Assistant",
+  "version": "1.0",
+  "description": "Transform your meetings with AI-powered transcription, summarization, and automation. Record, analyze, and share meeting insights effortlessly.",
+"permissions": [
+  "activeTab",
+  "tabCapture",
+  "storage",
+  "audioCapture",
+  "tabCapture",
+  "offscreen"
+],
+  "host_permissions": ["http://127.0.0.1:5000/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "LOGO.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
